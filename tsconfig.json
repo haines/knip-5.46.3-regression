@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "**/*.config.js",
+    "**/*.config.ts"
+  ],
+  "references": [
+    { "path": "packages/app" }
+  ],
+  "compilerOptions": {
+    "composite": false,
+    "noEmit": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler"
+  }
+}

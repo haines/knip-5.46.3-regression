@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "include": ["src"],
+  "references": [
+    { "path": "../shared" },
+  ],
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "verbatimModuleSyntax": true,
+    "jsx": "react-jsx",
+    "lib": ["DOM", "DOM.Iterable", "ES2022", "ES2023.Array"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "outDir": "build/types",
+    "rootDir": "src",
+    "target": "ES2022",
+    "tsBuildInfoFile": "build/.tsbuildinfo"
+  }
+}

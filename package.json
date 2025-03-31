@@ -1,0 +1,22 @@
+{
+  "name": "@ahaines/monorepo",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@10.7.0",
+  "engines": {
+    "node": "22.14.0",
+    "pnpm": "10.7.0"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "rm -rf packages/*/build",
+    "knip": "knip"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "22.0.1",
+    "@tsconfig/strictest": "2.0.5",
+    "@types/node": "22.13.14",
+    "knip": "5.46.3",
+    "typescript": "5.8.2"
+  }
+}
