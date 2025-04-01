@@ -1,0 +1,13 @@
+{
+  "name": "@ahaines/server",
+  "type": "module",
+  "private": true,
+  "files": [
+    "build/**/*.js",
+    "build/**/*.js.map"
+  ],
+  "dependencies": {
+    "@ahaines/shared": "workspace:*",
+    "@ahaines/app": "workspace:*"
+  }
+}

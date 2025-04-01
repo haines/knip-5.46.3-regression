@@ -9,14 +9,17 @@
   },
   "scripts": {
     "build": "tsc --build",
-    "clean": "rm -rf packages/*/build",
-    "knip": "knip"
+    "clean": "rm -f tsconfig.tsbuildinfo && rm -rf packages/*/build",
+    "knip:good": "node node_modules/knip@good/bin/knip.js",
+    "knip:latest": "node node_modules/knip@latest/bin/knip.js",
+    "test": "pnpm run clean && pnpm run build && pnpm run knip:good && pnpm run knip:latest"
   },
   "devDependencies": {
     "@tsconfig/node22": "22.0.1",
     "@tsconfig/strictest": "2.0.5",
     "@types/node": "22.13.14",
-    "knip": "5.46.3",
+    "knip@good": "npm:knip@5.46.2",
+    "knip@latest": "https://pkg.pr.new/knip@e5ca159",
     "typescript": "5.8.2"
   }
 }
