@@ -18,8 +18,10 @@
     "@tsconfig/node22": "22.0.1",
     "@tsconfig/strictest": "2.0.5",
     "@types/node": "22.13.14",
+    "knip": "https://pkg.pr.new/knip@eb68ec0",
     "knip@good": "npm:knip@5.46.2",
-    "knip@latest": "https://pkg.pr.new/knip@e5ca159",
-    "typescript": "5.8.2"
+    "knip@latest": "https://pkg.pr.new/knip@eb68ec0",
+    "typescript": "5.8.2",
+    "vitest": "3.1.1"
   }
 }

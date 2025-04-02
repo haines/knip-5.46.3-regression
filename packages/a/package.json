@@ -1,0 +1,8 @@
+{
+  "name": "@ahaines/a",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "vitest": "3.1.1"
+  }
+}

@@ -5,8 +5,8 @@
     "**/*.config.ts"
   ],
   "references": [
-    { "path": "packages/e2e-tests" },
-    { "path": "packages/server" }
+    { "path": "packages/a" },
+    { "path": "packages/b" }
   ],
   "compilerOptions": {
     "composite": false,
